@@ -1,0 +1,271 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after {/*清除浮动*/
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+/*school背景设置*/
+.schools .schoolbg1 {
+	height: 448px;
+	background: url("../img/schoolbg1.jpg") no-repeat center top;
+}
+.schools .schoolbg2 {
+	height: 413px;
+	background: url("../img/schoolbg2.jpg") no-repeat center top;
+}
+.schools .schoolbg3 {
+	height: 430px;
+	background: url("../img/schoolbg3.jpg") no-repeat center top;
+}
+
+
+/*school_con的设置*/
+.schools .school_con {
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    top: 0;
+}			
+/*header的设置*/
+.header {
+	width: 1200px;
+	height: 55px;
+	margin: auto;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	float: right;
+	padding-top: 15px;
+}
+.firstpage {
+	padding-top: 15px;
+	float: right;
+}
+
+/*banner的设置*/
+.banner {
+	width: 1200px;
+	height: 239px;
+	margin: auto;
+}
+.banner img {
+	display: block;
+	margin: 48px auto 22px;
+}
+.banner .con1btn,.con2btn {
+	width: 174px;
+	height: 43px;
+	border-radius: 24px;
+	color: #fefefe;
+	font-size: 22px;
+	text-align: center;
+	line-height: 43px;
+	text-decoration: none;
+}
+.banner .con1btn {		
+	float: left;
+	margin-left: 398px;	
+	background-color: #ff2c54;			
+	border-bottom: 7px #c6143a solid;					
+}
+.banner .con2btn {
+	float: right;
+	margin-right: 398px;						
+	background-color: #3461f8;								
+	border-bottom: 7px #143dc6 solid;						
+}
+
+
+/*contact中心的设置*/
+.contact {
+	width: 1200px;
+	height: 691px;
+	margin: 20px auto 0;
+	position: relative;
+}
+.school_con .contact ul li .contactli {
+    width: 100%;
+    height: 691px;
+    
+    margin-top: 22px;
+}
+/*遍布城市*/
+.school_con .contact ul li.contactli .contactli_p {
+    width: 80px;
+    position: absolute;
+    left: 43px;
+}
+.school_con .contact ul li.contactli .contactli_p p {
+    float: left;
+    width: 56px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+}
+.school_con .contact ul li.contactli .contactli_p p.contactli_p2 {
+    width: 24px;
+    margin-top: 195px;
+}
+/*提示信息*/
+.school_con .contact ul li.contactli .tishi {
+    position: absolute;
+    float: right;
+    right: 96px;
+    top: 292px;
+ }
+ .school_con .contact ul li.contactli .tsshou {
+ 	position: absolute;
+	left: 0;
+	top: 0;
+ }
+ /*迷你地图*/
+.school_con .contact ul li.contactli .mapmin {
+    position: absolute;
+    right: 90px;
+    bottom: -50px;
+}
+/*内容地图*/
+.school_con .contact ul li.contactli .map {
+    position: relative;
+    width: 880px;
+    height: 691px;
+    margin: auto;
+}
+
+.school_con .contact ul li.contactli #bg_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 880px;
+    height: 691px;
+    z-index: 1;
+    background: url("../img/move.png") no-repeat 0 691px;
+        /*background-position-x: 0px;
+        background-position-y: 691px;*/
+}
+
+
+/*底栏的设置*/
+
+.footer {
+    width: 100%;
+    background: #444 !important;
+    padding-bottom: 54px;
+    margin-top: 0 !important;
+}
+.footer .inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+    clear: both;
+    overflow: inherit;
+    position: relative;
+}
+.footer .about {
+    border-top: 0;
+    padding: 25px 100px;
+    clear: both;
+    position: relative;
+}
+.footer .about .div_list {
+    float: left;
+    margin-right: 110px;
+}
+.footer .foot_ch h3 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: normal;
+	font-size: 100%;
+}
+.footer .about .div_list li a {
+    line-height: 24px;
+    font-size: 12px;
+    color: #bbb;
+    text-decoration: none;
+}
+.footer .about .div_list li a:hover {
+	-webkit-transition: all 0.5s;
+	color: blue;
+}
+.footer .about .div_ewm {
+    float: right;
+    margin-right: -30px;
+    margin-top: -80px;
+}
+.footer .about .ewmbox {
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.footer .about .ewmbox .icon_tt {
+    line-height: 40px;
+    color: #bbb;
+}
+.footer .about .ewmbox .iconbox,.iconbox2,.iconbox3 {
+	padding: 10px;
+}
+.footer .about .ewmbox img {
+	width: 60px;
+	height: 66px;
+}
+.footer .about .ewmbox div {
+	width: 65px;
+	height: 72px;
+	background-color: #ccc;
+	border-radius: 20px;
+}
+
+/*底栏广告*/
+.footer .add {
+    padding: 25px 0;
+    clear: both;
+    border-top: 1px solid #E0E0E0;
+    position: relative;
+}
+.footer .add h2 {
+    float: left;
+    margin-top: 5px;
+}
+.footer img {
+    display: inline-block;
+    border: 0;
+}
+.footer .add p {
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 20px;
+    color: #bbb;
+}
+.footer .add a {
+    color: #bbb;
+}
+.footer .add ul {
+    float: right;
+    overflow: hidden;
+}
+.footer .add ul li {
+    float: left;
+    margin-left: 4px;
+}

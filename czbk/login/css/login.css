@@ -1,0 +1,311 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	
+	background-color: #FFFFFF;
+}
+/*顶栏文字*/
+span,.txt_c,.txt_h { /*0021*/
+	font-size: 13px;
+	line-height: 30px;
+	color: black!important;
+}
+.txt_t a {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+.txt_c {
+	margin-left: 760px;		
+}
+.txt_h {				
+	float: right;	
+}
+#txt {
+	width: 1100px;
+	height: 30px;
+	margin-left: 125px;
+}
+/*导航栏设置*/
+#nav {
+	width: 1366px;
+	height:80px;
+	background-color: #FFFFFF;
+}
+.logo {
+	padding-top: 18px;
+	float: left;
+}
+#navbar ul {
+	margin-left: 280px;
+	padding-top: 30px;
+}
+#navbar li {
+	float: left;
+	padding-left: 50px;
+}
+#navbar li a {
+	font-size: 16px ;
+	color: black;
+}
+#navbar a:hover {/*0021*/
+	color: blue;
+}
+.submit{
+	margin-top: 5px;
+	margin-left: 80px;
+	background: url(../img/new_search.png) 1000px 4px no-repeat;
+}
+.submit_a {
+	margin-left: 155px;
+}
+.submit a {
+	color:black;
+	padding: 0 15px;
+	border-right: 1px solid #CCCCCC;
+}
+.submit a:last-child {
+	border: 0;
+}
+
+/*
+ * main中心表单设置
+ */
+
+.main {
+	width: 1100px;
+	height: 750px;
+	padding-top: 70px;
+	margin: auto;
+}
+.mainm {
+	width: 910px;
+	height: 650px;
+	margin: 30px auto;
+	position: relative;
+}
+ .img a{
+	width: 450px;
+	height: 404px;
+	position: absolute;
+	margin-top: 20px;
+}
+.login {
+	width: 382px;
+	height: 620px;
+	position: absolute;
+	margin-left: 510px;
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+	border-top: 2px solid blue;
+}
+.logint {
+	width: 340px;
+	height: 65px;
+	position: absolute;
+	margin-left: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.logint span {
+	display: inline-block;
+	line-height: 65px;
+	font-size: 25px;	
+	padding-left: 160px;
+	border-bottom: 0;
+	font-weight: bold;
+	letter-spacing: 3px;
+	background:url(../img/icon-heading.png) no-repeat 110px 22px;
+}
+.info {
+	width: 340px;
+	height: 448px;
+}
+.rfs  {
+	position: absolute;
+    width: 310px;
+    height: 66px;
+    margin-top: 100px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.rfs_p  {
+	position: absolute;
+    width: 310px;
+    height: 66px;
+    margin-top: 170px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.rfs_t span{
+	display: block;
+	width: 310px;
+	height: 30px;
+	float: left;
+	margin-left: 21px;
+	margin-top: 240px;
+}
+.rfs_s  {
+	position: absolute;
+    width: 310px;
+    height: 66px;
+    margin-top: 290px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.rfs_submit {
+	position: absolute;
+	float: left;
+	width: 330px;
+	height: 60px;
+	background-color: #00A4FF;
+	border-radius: 50px;
+	margin-top: 365px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.rfs_submit span {
+	line-height: 66px;
+	font-size: 18px;
+	margin-left:140px;
+}
+.rfs_c {
+	position: absolute;
+	float: left;
+	width: 330px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 460px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.rfs_img {
+	margin-left: 20px;
+	float: left;
+	margin-top: 310px;
+}
+/*底栏设置*/
+#footer {
+	width: 1366px;
+	height: 363px;
+	margin-top: 25px;
+}
+#footer a:hover {
+	color: blue;
+}
+#footer_t {
+	width: 1366px;
+	height: 107px;
+	background-color:#FBFBFB;
+	/*border-top: 1px solid red;*/
+}
+.recommend {
+	width: 1100px;
+	height: auto;
+	margin-left: 95px;
+	padding-top: 30px;
+	overflow: hidden;
+}
+.recommend a{
+	font-size: 11px;
+	line-height: 35px;
+	padding: 0 28px;
+	color: #747474;
+	border-right: 1px solid #CCCCCC;
+}
+.recommend a:hover {
+	color: #00A4FF;
+}			
+.recommend a:nth-child(9){
+	border: 0;
+}
+.recommend a:nth-child(11){
+	border: 0;
+}
+
+#footer_b {
+	width: 1366px;
+	height: 256px;
+	background-color: #2F353A;
+	/*border-top: 1px solid red;*/
+}
+.footertl {
+	width: 860px;
+	height: 150px;
+	margin-left: 120px;
+	margin-top: 50px;
+	float: left;
+}
+.fabout {
+	width: 466px;
+	height: 115px;
+	float: left;
+	border-right: 1px solid #575B5F;
+}
+.fabout dt {
+	text-indent: 25px;
+	line-height: 35px;
+	color: #FFFFFF;
+	background: url(../img/fico1.jpg) left center no-repeat;
+}
+.fabout,.ftousu ,.flianxi dd{
+	color: #ABA6A6;
+}
+.flianxi dd {
+	padding-left: 10px;
+}
+.ftousu dd {
+	padding-left: 10px;
+}
+.fabout dd a {
+	line-height: 28px;
+	font-size: 13px;
+	color: #ABA6A6;
+	padding: 0 7px;
+}
+.ftousu {
+	width: 150px;
+	height: 115px;
+	float: left;
+	border-right: 1px solid #575B5F;
+	
+	padding-left: 30px;
+}
+.ftousu dt {
+	text-indent: 25px;
+	line-height: 35px;
+	color: #FFFFFF;
+	background: url(../img/fico2.jpg) left center no-repeat;
+}
+.ftousu dd a{
+	line-height: 28px;
+	font-size: 13px;
+	color: #ABA6A6;
+}
+.flianxi {
+	width: 140px;
+	height: 115px;
+	float: left;
+	margin-left: 30px;
+}
+.flianxi dt {
+	text-indent: 25px;
+	line-height: 35px;
+	color: #FFFFFF;
+	background: url(../img/fico3.jpg) left center no-repeat;
+}
+.flianxi  dd a{
+	line-height: 28px;
+	font-size: 13px;
+	color: #ABA6A6;
+}
+.footertr {
+	width: 300px;
+	height: 145px;
+	float: left;
+	margin-top: 45px;
+}

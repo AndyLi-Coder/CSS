@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+
+	<head>
+		<title>登录 - 黑马程序员用户中心</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/yunvideoPassport.css"/>
+	</head>
+	
+	<body>
+		<!-- 内容区域 start -->
+		<!--header开始-->
+		<div class="header">
+			<h1><img src="img/logo.png" width="160" /></h1>
+			<strong>登录界面</strong>
+		</div>
+		<!--header结束-->
+		<!--login开始部分-->
+		<div class="login_box login_js posi">
+			<div class="inner">
+				<div class="inner_l">
+					<div class="hdbox">
+						<h2 class="cur">账号登录</h2>
+						<h2 class="mobile">手机快捷登录</h2>
+					</div>
+					<div class="cha_box">
+						<div class="cha_list cur">
+							<form id="userform"  method="post" >
+								<div class="line">
+									<input type="text"  id="username" placeholder="请输入邮箱/手机号">
+								</div>
+								<div class="line line2">
+									<input type="password" id="userpass" placeholder="请输入密码">
+								</div>
+								<div class="line">
+									<div class="div_l"><label for="reb">记住登录信息</label><input type="checkbox" class="remb" value="1" id="reb"></div>
+									<a href="javascript:;" class="forgetmm agd">忘记密码？</a>
+								</div>
+								<div class="line line2">
+									<input type="submit" value="登 录" class="confirm agd">
+								</div>
+								<input type="hidden"/>
+							</form>
+						</div>
+						<div class="cha_list">
+							<form id="userphoneform" >
+								<div class="line">
+									<input type="text"  id="userphone" maxlength="11" placeholder="请输入手机号码"  value="" autocomplete="off">
+								</div>
+								<div class="line line2">
+									<input type="text"  id="phonecode" class="yzm" placeholder="请输入验证码"  autocomplete="off" >
+									<input type="button" value="获取验证码" id="getphonepass" class="code agd">
+								</div>
+								<div class="line">
+									<a href="javscript:;" class="forgetmm agd">忘记密码？</a>
+								</div>
+								<div class="line line2">
+									<input type="submit" value="登 录" class="confirm agd">
+								</div>
+								<input type="hidden" name="__hash__" value="fdebb79d3961b7ae00fbfba377ac868f_fa4d437ecb7a86d2ab4b69850fd688f8" />
+							</form>
+						</div>						
+					</div>
+				</div>
+				<div class="inner_r">
+					<div class="rtop">
+						<span>没有账号?</span></br>
+						<a href="http://passport.itheima.com/register">立即注册 →</a>
+					</div>
+					<div class="sjbox">
+						<h3>使用以下账号直接登录</h3>
+						<div class="sjlist">
+							<div class="sj_in">
+								<a href="javascript:;"  class="sj1 agd">
+									<img src="img/qq1.png" style="width: 58px;height: 58px;"/>
+								</a>
+								<a href="javascript:;"  class="sj2 agd">
+									<img src="img/weibo1.png" style="width: 58px;height: 58px;"/>
+								</a>
+								<a href="javascript:;"  class="sj3 agd">
+									<img src="img/weixin1.png" style="width: 58px;height: 58px;"/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/change.js"></script>
+	<!--login结束部分-->
+		<p class="copy">江苏传智播客教育科技有限公司 版权所有Copyright 1999-2016, CSDN.NET, All Rights Reserved 苏ICP备16007882</p>
+		<iframe style="display:none" id="ajaxframe" name="ajaxframe"></iframe>
+	</body>
+</html>
